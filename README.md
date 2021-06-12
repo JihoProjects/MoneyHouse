@@ -19,7 +19,7 @@
 -   ### Server
 
     -   SpringBoot REST Server
-    -   Spring Test Suite
+    -   Spring Tool Suite
 
 -   ### Database
 
@@ -34,5 +34,5 @@
 
 ## 보고서
 
--   ### [Presentataion](HappyHouse_Final_Report.pdf)
+-   ### [Presentataion Report](HappyHouse_Final_Report.pdf)
 -   ### [Architecture Design](HappyHouse_Final_Architecture_Design.pdf)
