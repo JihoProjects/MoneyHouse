@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.happyhouse.dao.QnaDao">
+
+<!-- DTO Structure
+    private int qid;
+    private String qdate;
+    private String qans;
+    private String qque;
+    private String quserid;
+ -->
+
+    <!-- QnA 전체 목록 -->
+    <select id="qnaSearchAll" resultType="qnaboard">
+        SELECT * FROM qnaboard
+    </select>
+
+    <!-- QnA 상세 보기 -->
+    <select id="qnaSearchOne" resultType="qnaboard">
+        SELECT * FROM qnaboard WHERE qid = #{qid}
+    </select>
+
+    <!-- QnA 질문 등록 -->
+    <insert id="qnaQuestion" parameterType="map">
+        INSERT INTO qnaboard 
+        VALUES (null, sysdate(), "", #{qque}, #{quserid},"서울")
+    </insert>
+
+    <!-- QnA 질문 수정 -->
+    <update id="qnaUpdate" parameterType="map">
+        UPDATE qnaboard SET qque = #{qque}
+        WHERE qid = #{qid}
+    </update>
+
+    <!-- QnA 답변 등록 -->
+    <update id="qnaAnswer" parameterType="map">
+        UPDATE qnaboard SET qans = #{qans}
+        WHERE qid = #{qid}
+    </update>
+
+    <!-- QnA 글 삭제 -->
+    <delete id="qnaDelete">
+        DELETE FROM qnaboard
+        WHERE qid = #{qid}
+    </delete>
+     <!-- 덧글 검색 -->
+	<select id="commentSearchOne" parameterType="string" resultType="BoardComment">
+	        SELECT * 
+	        FROM comment 
+	        WHERE qid = #{qid}
+	 </select>
+	
+	<!-- 덧글 등록 -->
+    <insert id="commentAdd" parameterType="BoardComment" >
+        INSERT INTO comment 
+        VALUES (null, #{qid}, #{comment}, #{userid})
+    </insert>
+    <!-- 덧글 삭제 -->
+	<delete id="commentDelete">
+        DELETE FROM comment
+        WHERE cid = #{cid}
+    </delete>
+	 <!-- 대댓글 검색 -->
+	<select id="subcommentSearchOne" parameterType="string" resultType="SubComment">
+	        SELECT * 
+	        FROM subcomment 
+	        WHERE qid = #{qid} 
+	        AND cid=#{cid}
+	 </select>
+	
+	<!-- 대댓글 등록 -->
+    <insert id="subcommentAdd" parameterType="SubComment" >
+        INSERT INTO subcomment 
+        VALUES (null, #{qid}, #{cid}, #{comment},#{userid})
+    </insert>
+    <delete id="subcommentDelete">
+        DELETE FROM subcomment
+        WHERE sid = #{sid}
+    </delete>
+</mapper>

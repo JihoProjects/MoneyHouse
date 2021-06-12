@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.happyhouse.dao.HouseDao">
+
+<!--
+    public List<Guguncode> citySearch(String city);
+    public List<Dongcode> gugunSearch(String gugun);
+    public List<Housedeal> dongSearch(String dong);
+    public List<Housedeal> houseSearch(String dong);
+    public List<Housedeal> nameSearch(String name);
+    public List<Houseinfo> aptSearch(String name);
+-->
+
+    <!-- SELECT gugun_name FROM  guguncode where gugun_code like ? -->
+    <select id="citySearch" parameterType="string" resultType="string">
+        SELECT gugun_name
+        FROM   guguncode
+        WHERE  gugun_code LIKE CONCAT(SUBSTR((
+            SELECT sido_code FROM sidocode WHERE sido_name LIKE #{sido_name}
+        ), 1, 2), "%")
+    </select>
+
+    <select id="gugunSearch" parameterType="string" resultType="string">
+        SELECT dong
+        FROM   dongcode
+        WHERE  gugun like #{gugun}
+    </select>
+
+    <select id="dongSearch" parameterType="string" resultType="housedeal">
+        SELECT *
+        FROM   housedeal
+        WHERE  dong = #{dong}
+    </select>
+
+    <select id="houseSearch" resultType="houseinfo">
+        SELECT *
+        FROM   houseinfo
+    </select>
+
+    <select id="nameSearch" parameterType="string" resultType="housedeal">
+		SELECT d.aptname,d.dealAmount,d.dealYear,d.area,i.lat,i.lng 
+		FROM housedeal d,houseinfo i 
+		where d.aptname=i.aptname and
+		d.aptname like #{name};
+    </select>
+    
+    <select id="locationDongSearch" parameterType="string" resultType="baseaddress">
+        SELECT *
+        FROM   baseaddress
+        WHERE  dong = #{dong}
+    </select>
+	
+	<select id="locationAptSearch" parameterType="string" resultType="houseinfo">
+	SELECT * 
+	From houseinfo 
+	Where AptName IN (SELECT AptName from housedeal where dong = #{dong});
+
+    </select>
+	
+</mapper>

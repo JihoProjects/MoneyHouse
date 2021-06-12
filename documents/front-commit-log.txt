@@ -1,0 +1,428 @@
+$ git log
+commit ab84ae3275ec2bd1a93518cccaaaacd3c14bcafa (HEAD -> master, origin/master, origin/HEAD)
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 28 03:43:38 2021 +0900
+
+    Doll up Comment pages
+
+commit 821d4f7334d7b1622917fc21d444f36e156ff8db
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 28 02:07:11 2021 +0900
+
+    Fix error - board null
+
+commit 7bb8a2c6044f779401d70fe750ba53d72da17c51
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 28 00:56:48 2021 +0900
+
+    Doll up BoardDetail page
+
+commit 11e0931e326b59ae3a9e0944241d090cc63cb7b7
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 28 00:56:17 2021 +0900
+
+    Fix action name
+
+commit 8c5b77692dce821643b647ce6d97a79442b90c5d
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 28 00:54:39 2021 +0900
+
+    Add button link to BoardInput
+
+commit cc935a887209c9b392b40aecd29d9c78a9db3900
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 28 00:53:23 2021 +0900
+
+    Add getters for userid
+
+commit 0d7f8744db58d79859cbfeb5fc855fb80d185d11
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 28 00:53:01 2021 +0900
+
+    Add axios return to get Board item
+
+commit 1d079721a4dd75f861f784c433606797163a0043
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 13:53:41 2021 +0900
+
+    Doll up BoardList page
+
+commit 9d6639c53b48b83670681ab6362c1177f8502754
+Merge: f38bddf b2b2d95
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 27 11:02:58 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit f38bddf41acae9413994c789ba523f2577f4cdc0
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 27 11:02:47 2021 +0900
+
+    대댓글삭제완료
+
+commit b2b2d95812e3f1d1fbe1769f7417f80495eb79fc
+Merge: 6c46a9e b39e4cb
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 10:41:08 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit b39e4cbf9578d22545f416628292b411b9ca71c7
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 27 10:39:56 2021 +0900
+
+    댓글 삭제가능
+
+commit 6c46a9e25b381fd00a88567b57e602061cf0ddd7
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 10:31:09 2021 +0900
+
+    Add scroll action
+
+commit 44b456a38a2b335f7546847f668cff2b62cbd4b9
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 02:21:40 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit a5e27ae944955d1994f7e4bfad616fe68e147c89
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 02:21:16 2021 +0900
+
+    Fix userid getter
+
+commit 24188c49caaa8be75c463d01ba12769c3e272c51
+Merge: 27eb9e6 4b018eb
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 02:20:35 2021 +0900
+
+    Update gitignore
+
+commit 27eb9e6732e97272f545a41d96061886f0416bad
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 01:44:13 2021 +0900
+
+    Doll up DealAddressSearch page
+
+commit 4b018eb2c58f9f30a9c8ed2e6052212cd76cc45c
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 27 01:33:03 2021 +0900
+
+    대댓글 완성(이름 바꿔야함)
+
+commit 0edc29a186d591f6be32555c2342054db29ba493
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 27 01:32:15 2021 +0900
+
+    대댓글완성
+
+commit 89318abae7df88162a215c2aab9c572bdb7de8b3
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 27 01:31:35 2021 +0900
+
+    대댓글 완성 (사용자 이름 받아오는거 필요함)
+
+commit 91362a0d44160670a8318579b59963875545b496
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 00:37:18 2021 +0900
+
+    Fix grid layout
+
+commit e888194d71967804b07f82780f4e7242f3938919
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 00:24:32 2021 +0900
+
+    Add router link on buttons
+
+commit c4b680e1a5d5216ca71887519b67490cbdd3b833
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 00:23:41 2021 +0900
+
+    Doll up DealNameSearch page
+
+commit ae74a4a653e7425859d95d2cf8e65c7e3c29f218
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 00:20:56 2021 +0900
+
+    Fix icons
+
+commit f5c5c8cd33766f5c31f1f78d8e534fe11bb4e851
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 00:18:59 2021 +0900
+
+    Fix Header position
+
+commit cbcac6751480c43f00f955d7a8ab6f2591e8624b
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 27 00:17:00 2021 +0900
+
+    Fix typo
+
+commit f11319340333574141548f9eff940f3df639e85d
+Merge: 8d09831 bb71b13
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 16:56:59 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit 8d098316af04fc009f6cbe1726c0ed6219450282
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 16:56:02 2021 +0900
+
+    Add Social Icon
+
+commit bb71b130b87c0dfb19b5b83f23acdf236355ebfd
+Merge: 0796302 88785fb
+Author: jeus <jjw9551@naver.com>
+Date:   Wed May 26 16:47:44 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit 0796302697d32593f26d35f0e07c58c05512189c
+Author: jeus <jjw9551@naver.com>
+Date:   Wed May 26 16:44:28 2021 +0900
+
+    대댓글 수정전
+
+commit b2e58af73d02bf33a43ce2faf6bb8f0c75eb064e
+Author: jeus <jjw9551@naver.com>
+Date:   Wed May 26 16:44:11 2021 +0900
+
+    댓글구현 완료,(페이지네이션 위치, 리스트 크기등 수정 필요!)
+
+commit 88785fb76044bdd3d57831ad9dcdecaf6122bbbd
+Merge: 69cfe12 83c9eb1
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 16:04:10 2021 +0900
+
+    Merge Front
+
+commit 69cfe12d9bfb15103fa87032ace2eeaa55987b41
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 15:35:21 2021 +0900
+
+    Update npm lib
+
+commit d316de8f6ed0c546f41b62df77294a48d2d1fdf4
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 15:34:54 2021 +0900
+
+    Add User Service v0.7
+
+commit 3964bb3cc57115ccc01ace4ffdd1544f6e5a265c
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 15:33:51 2021 +0900
+
+    Update for DaumAddrAPI
+
+commit 5a9cad123a66da5c033eee1cfe07e59d03478d26
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 15:32:37 2021 +0900
+
+    Add Veux Module userStore
+
+commit f4e42e1815220b6394d756dd4af4aa579594862b
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 15:30:59 2021 +0900
+
+    Update Main Page
+
+commit e3062aa1885bb98720922122f82dfd01beccb9b3
+Author: 김지호 <jiho@kakao.com>
+Date:   Wed May 26 15:29:59 2021 +0900
+
+    Update Header.vue
+
+commit 83c9eb19ed99650cc5d4f76e39949d5970fe5b7d
+Author: jeus <jjw9551@naver.com>
+Date:   Sun May 23 23:00:40 2021 +0900
+
+    매물 검색 1차 완성
+
+commit b560e9a06b034d7fc7c00c3376b29169b980e464
+Author: jeus <jjw9551@naver.com>
+Date:   Sun May 23 23:00:27 2021 +0900
+
+    매물검색 1차 완성 ( 마커까지 가능)
+
+commit 9c3047bf9d73eead551b965897f62c898c530649
+Merge: 93d1043 c504cb3
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 15:41:47 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit c504cb3f5843b388ec86d474a0eb60aaf98d00cf
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 15:32:35 2021 +0900
+
+    Add Login Component
+
+commit 93d1043b54ccd362b96787d9ae8d049eb8087f84
+Merge: 7456635 23d423d
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 15:23:29 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit 23d423d42c217466e3f6618c0d3f8f2c2afe73b1
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 15:22:10 2021 +0900
+
+    Add Subsection
+
+commit 74566356fe9cee475a1d3eec8b1e9128af4cc7b2
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 15:11:50 2021 +0900
+
+    시,동,구로 매물 검색 ( 데이터 통신 완료 )
+
+commit 607855ad3576be1920d62159c6e6d3d3a835422d
+Merge: c650bd5 b61080f
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 14:44:23 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit c650bd5f0a5cec9ca250e8982dff90daa82d0869
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 14:29:57 2021 +0900
+
+    매물 수정중
+
+commit 5e09cb6d64699f8d91f04a53342d7f9276a9c920
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 14:29:19 2021 +0900
+
+    매물(수정중)
+
+commit b61080fcff493ade1eecdc88af281f3b9bea25dc
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 14:25:49 2021 +0900
+
+    Fix Google Fonts
+
+commit 50a209895f9bc9210d557cca5c9cb75866f60279
+Merge: cccdbbe 87d7a00
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 14:08:27 2021 +0900
+
+    Merge
+
+commit cccdbbe0694adb66bc38563ccbf1fb5211b4dbc9
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 13:52:49 2021 +0900
+
+    Add subsection
+
+commit 3c20fa38de964838742a5a2e958f1ef77e916901
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 13:52:32 2021 +0900
+
+    Fix Router Main
+
+commit 87d7a00440cc7b718372cabd6f27a3129d60dd4e
+Merge: 1dcf617 0f2beb3
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 13:15:22 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit 1dcf6170d7724a0ff0df57ebd51b4278fd479b06
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 13:08:55 2021 +0900
+
+    deal 구현(city) 까지 가능
+
+commit 0f2beb32921c144c4443d2fb96c11f36a43869ec
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 11:43:39 2021 +0900
+
+    Add Carousel Banner
+
+commit cadd105517507c8dbf1ae65e929813d3ac691b87
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 11:42:59 2021 +0900
+
+    Fix background-color
+
+commit ff3d60f04c2ec3974f681dcdd750e297169ed727
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 11:42:20 2021 +0900
+
+    Add Google Fonts, Fix title & favicon
+
+commit 72188bee28b317a8ae510a71e5470ba0e7ef9784
+Merge: aa10403 7f60b8f
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 09:46:47 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit aa10403212e93a452b104e084ff4b3335ddfe186
+Merge: 3863206 09f1267
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 09:46:09 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit 7f60b8fe5e24ed066939b8ae76e532bebc2844c9
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 09:34:27 2021 +0900
+
+    FIX error
+
+commit 3863206fed13c0f1a555362d3de62c4b18af83fa
+Author: jeus <jjw9551@naver.com>
+Date:   Fri May 21 09:32:12 2021 +0900
+
+    main에 Deal연결
+
+commit 09f1267430599da593e860ba0ed3a6e3bd18d7bf
+Author: 김지호 <jiho@kakao.com>
+Date:   Fri May 21 09:28:33 2021 +0900
+
+    Merge Header
+
+commit c547498147af832165f4f063c2b86ba1719fc24e
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 20 23:21:56 2021 +0900
+
+    css적용
+
+commit 83ea687ada33363e6fbabda2a74291ecc6159f6d
+Merge: a6734fd d69b5f6
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 20 23:21:34 2021 +0900
+
+    Merge branch 'master' of https://lab.ssafy.com/jjw9551/happyhouse_final_front
+
+commit a6734fddd230e713f85e7948b3aa4eb2998bb92f
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 20 21:01:07 2021 +0900
+
+    footer
+
+commit d69b5f6c3841b3bb6c6f50a57270fc2f1a053082
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 20 20:20:08 2021 +0900
+
+    Add Header, Footer
+
+commit 75260c2b7fccbfd85d8c76a9a233aef0f502fddb
+Author: 김지호 <jiho@kakao.com>
+Date:   Thu May 20 20:18:44 2021 +0900
+
+    ADD bootstrap-vue library
+
+commit c235d9c003779c97be5c2dfc5a7c3bfed4b8efad
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 20 18:22:19 2021 +0900
+
+    VSCODE
+
+commit 42feb05cdebc2a2e349e0ed1a4e34cc8897ceee8
+Author: jeus <jjw9551@naver.com>
+Date:   Thu May 20 18:09:37 2021 +0900
+
+    add README
